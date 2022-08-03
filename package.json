@@ -1,0 +1,30 @@
+{
+  "name": "saude_baby_api",
+  "version": "1.0.0",
+  "description": "Aplicação para saude infantil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cochini/API-TCC.git"
+  },
+  "keywords": [
+    "Saúde",
+    "Criança",
+    "Aplicativo"
+  ],
+  "author": "Cintia Ochini e Carolina Nascimento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cochini/API-TCC/issues"
+  },
+  "homepage": "https://github.com/cochini/API-TCC#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3"
+  }
+}
